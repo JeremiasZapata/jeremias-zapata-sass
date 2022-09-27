@@ -1,0 +1,14 @@
+footer{
+    margin-top: auto;
+    nav{
+        a{
+            font-family:$mainFont;
+            
+        }
+        .text-color{
+            color: rgb(255, 255, 255) ;
+        }
+    }
+    background-color: $hfcolor;
+    animation-delay: 1.5s;
+}

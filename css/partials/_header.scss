@@ -1,0 +1,19 @@
+header{
+
+    nav{
+        background-color:rgb(46, 1, 71);
+        ul{
+            li{
+                a{
+                    font-family: $mainFont;
+                    color: rgb(255, 255, 255);
+                    &:hover{
+                        transform: scale(1.05);
+                        transition: all ease 1s;
+                    }
+                }
+            }
+        }
+    }
+}
+

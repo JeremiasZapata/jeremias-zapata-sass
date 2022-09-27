@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: rgb(0, 0, 0);
+  color: rgb(46, 1, 71);
+}
+*::selection {
+  background-color: rgb(0, 0, 0);
+  color: rgb(46, 1, 71);
+}
+* html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+header nav {
+  background-color: rgb(46, 1, 71);
+}
+header nav ul li a {
+  font-family: "Merriweather", serif;
+  color: rgb(255, 255, 255);
+}
+header nav ul li a:hover {
+  transform: scale(1.05);
+  transition: all ease 1s;
+}
+
+footer {
+  margin-top: auto;
+  background-color: rgb(46, 1, 71);
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+footer nav a {
+  font-family: "Merriweather", serif;
+}
+footer nav .text-color {
+  color: rgb(255, 255, 255);
+}
+
+main .container a section .img-guit {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  overflow: hidden;
+  position: relative;
+  width: 55%;
+  box-shadow: 0 4px 16px rgb(199, 11, 11);
+  border-radius: 35px;
+}
+main .container a section .logo-index {
+  text-align: center;
+}/*# sourceMappingURL=estilo.css.map */
