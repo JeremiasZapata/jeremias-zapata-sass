@@ -1,0 +1,12 @@
+
+/* ajuste de los videos */
+.video1, .video2, .video3{
+    margin: 15px;
+    text-align: center;
+}
+
+iframe{
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: $sombreado_rojo;
+}

@@ -1,0 +1,14 @@
+/* Texto colapse */
+
+.desplegable,
+a[name='more']:target ~ .ver_mas {
+visibility: hidden;
+width:0;
+height:0; 
+}
+
+a[name='more']:target ~ .desplegable {
+visibility: visible;
+width: auto;
+height: auto;
+}

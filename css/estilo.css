@@ -31,6 +31,14 @@ body {
   min-height: 100%;
 }
 
+#contacto {
+  background-color: black;
+  background-image: url(../imagenes/background3.jpg);
+  background-position-x: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 header nav {
   background-color: rgb(46, 1, 71);
 }
@@ -67,4 +75,30 @@ main .container a section .img-guit {
 }
 main .container a section .logo-index {
   text-align: center;
+}
+
+/* Texto colapse */
+.desplegable,
+a[name=more]:target ~ .ver_mas {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+a[name=more]:target ~ .desplegable {
+  visibility: visible;
+  width: auto;
+  height: auto;
+}
+
+/* ajuste de los videos */
+.video1, .video2, .video3 {
+  margin: 15px;
+  text-align: center;
+}
+
+iframe {
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgb(199, 11, 11);
 }/*# sourceMappingURL=estilo.css.map */

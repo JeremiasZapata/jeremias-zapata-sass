@@ -1,3 +1,4 @@
+/* pasada la tipografia */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap');
 /* pasado  */
 *{
@@ -41,13 +42,13 @@ header nav{
     animation-delay: 1s;
 }
 
-
+/* pasado */
 /* ajuste de los videos */
 .video1, .video2, .video3{
     margin: 15px;
     text-align: center;
 }
-
+/* Pasado */
 iframe{
     margin: 20px;
     border-radius: 10px;
@@ -60,15 +61,13 @@ iframe{
     position: relative;
 }
 
-/*  background de todas las paginas menos index */
+/*  Pasado background de todas las paginas menos index */
 #contacto{
     background-color: black;
     background-image: url(../imagenes/background3.jpg);
     background-position-x: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-
 }
 
 /* pasado */
@@ -232,7 +231,7 @@ button:hover{
 }
 
 
-/* Texto colapse */
+/* Pasado Texto colapse */
 
 .desplegable,
 a[name='more']:target ~ .ver_mas {
