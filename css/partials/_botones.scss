@@ -1,0 +1,18 @@
+/* Botones de cards */
+
+.btncards:hover{
+    color:rgba(255, 255, 255, 1);
+    box-shadow: $sombreado_negro;
+    transition: all 0.2s ease;
+}
+
+.btncards{
+    background-color: rgba(0, 0, 255, 0.541);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    border: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
