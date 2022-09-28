@@ -8,6 +8,11 @@ main{
             box-shadow: $sombreado_rojo;
 
         }
+        a{
+            button{
+                @extend %botones;
+            }
+        }
     }
     
 }

@@ -1,4 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap");
+main .video a button {
+  background-color: rgba(95, 10, 173, 0.349);
+  border-radius: 5px;
+  color: white;
+  border: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+main .video a button:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 16px rgb(255, 255, 255);
+  transition: all 0.2s ease;
+}
+
+/* Aca le damos un poco de estilo a los botones y que cuando pase por encima cambie a manito*/
+button {
+  background-color: rgba(95, 10, 173, 0.349);
+  border-radius: 5px;
+  color: white;
+  border: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Efecto somreado a los botones GENIAL!!! */
+button:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 16px rgb(255, 255, 255);
+  transition: all 0.2s ease;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +64,7 @@ body {
 
 #contacto {
   background-color: black;
-  background-image: url(../imagenes/background3.jpg);
+  background-image: url(/imagenes/Soft_Wave_Background.jpg);
   background-position-x: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -99,20 +130,4 @@ main .video iframe {
   margin: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 16px rgb(199, 11, 11);
-}
-
-/* Botones de cards */
-.btncards:hover {
-  color: rgb(255, 255, 255);
-  box-shadow: 0 4px 16px rgb(0, 0, 0);
-  transition: all 0.2s ease;
-}
-
-.btncards {
-  background-color: rgba(0, 0, 255, 0.541);
-  border-radius: 5px;
-  color: rgb(255, 255, 255);
-  border: transparent;
-  padding: 5px;
-  cursor: pointer;
 }/*# sourceMappingURL=estilo.css.map */
