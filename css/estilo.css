@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap");
 main .video a button {
-  background-color: rgba(95, 10, 173, 0.349);
+  background-color: rgba(94, 10, 173, 0.747);
   border-radius: 5px;
   color: white;
   border: transparent;
@@ -9,7 +9,7 @@ main .video a button {
 }
 main .video a button:hover {
   color: rgb(255, 255, 255);
-  box-shadow: 0 4px 16px rgb(255, 255, 255);
+  box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
   transition: all 0.2s ease;
 }
 
@@ -129,5 +129,20 @@ main .video {
 main .video iframe {
   margin: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 16px rgb(199, 11, 11);
+  box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
+}
+main .sombreado {
+  box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
 }/*# sourceMappingURL=estilo.css.map */
+
+
+/* borrar de aca para abajo */
+
+/* Delays de las cards creo */
+.delay{
+  animation-delay: 0.5s
+}
+
+.altura{
+  height: fit-content;
+}
