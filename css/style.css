@@ -215,14 +215,14 @@ button:hover{
     border-radius: 35px;
     
 }
-/* Delays de las cards creo */
+/* Pasado Delays de las cards creo */
 .delay{
     animation-delay: 0.5s
 }
 .altura{
     height: fit-content;
 }
-/* Sombreado de las cards */
+/* Pasado Sombreado de las cards */
 .sombreado{
     box-shadow: 8px 8px 8px 1px rgba(14, 35, 155, 0.445);
 }

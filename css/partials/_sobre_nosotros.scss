@@ -12,3 +12,10 @@ visibility: visible;
 width: auto;
 height: auto;
 }
+main{
+    details{
+        summary{
+            color: $hfcolor; 
+        }
+    }
+}

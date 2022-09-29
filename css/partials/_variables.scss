@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap");
 
-$mainFont: 'Merriweather', serif;
+$mainFont: "Merriweather", serif;
 $hfcolor: rgb(46, 1, 71);
 $sombreado_rojo: 0 4px 16px rgb(199, 11, 11);
-$sombreado_negro:8px 8px 8px 1px rgba(0, 0, 0, 0.712);
-$color_boton:rgba(94, 10, 173, 0.747);
+$sombreado_negro: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
+$color_boton: rgba(94, 10, 173, 0.747);
 
 //aca declaramos los valores de los botones
 %botones {
@@ -14,30 +14,25 @@ $color_boton:rgba(94, 10, 173, 0.747);
     border: transparent;
     padding: 5px;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         color: rgb(0, 0, 0);
         box-shadow: $sombreado_negro;
         transition: all 0.2s ease;
     }
 }
 
+//creamos un text colapse gral
 
-
-
-
-
-/* Aca le damos un poco de estilo a los botones y que cuando pase por encima cambie a manito*/
-button{
-    background-color: rgba(95, 10, 173, 0.349);
-    border-radius: 5px;
-    color: white;
-    border: transparent;
-    padding: 5px;
-    cursor: pointer;
+.desplegable,
+a[name="more"]:target~.ver_mas {
+    visibility: hidden;
+    width: 0;
+    height: 0;
 }
-    /* Efecto somreado a los botones GENIAL!!! */
-button:hover{
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 4px 16px rgb(255, 255, 255);
-    transition: all 0.2s ease;
+
+a[name="more"]:target~.desplegable {
+    visibility: visible;
+    width: auto;
+    height: auto;
 }

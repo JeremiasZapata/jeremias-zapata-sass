@@ -1,0 +1,13 @@
+main{
+    form{
+        fieldset{
+            .boton_formulario{
+                input{
+                    @extend %botones;
+                } 
+
+                }
+            }
+        }
+    }
+// el %botones esta en variables

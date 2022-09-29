@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap");
-main .btn, main .video a button {
+main form fieldset .boton_formulario input, main .btn, main .video a button {
   background-color: rgba(94, 10, 173, 0.747);
   border-radius: 5px;
   color: rgb(254, 254, 255);
@@ -7,11 +7,25 @@ main .btn, main .video a button {
   padding: 5px;
   cursor: pointer;
 }
-main .btn:hover, main .video a button:hover {
+main form fieldset .boton_formulario input:hover, main .btn:hover, main .video a button:hover {
   color: rgb(0, 0, 0);
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
   transition: all 0.2s ease;
 }
+
+.desplegable,
+a[name=more]:target ~ .ver_mas {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+a[name=more]:target ~ .desplegable {
+  visibility: visible;
+  width: auto;
+  height: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,11 +33,11 @@ main .btn:hover, main .video a button:hover {
 }
 *::-moz-selection {
   background-color: rgb(0, 0, 0);
-  color: rgb(46, 1, 71);
+  color: rgb(255, 255, 255);
 }
 *::selection {
   background-color: rgb(0, 0, 0);
-  color: rgb(46, 1, 71);
+  color: rgb(255, 255, 255);
 }
 * html {
   height: 100%;
@@ -102,6 +116,10 @@ a[name=more]:target ~ .desplegable {
   visibility: visible;
   width: auto;
   height: auto;
+}
+
+main details summary {
+  color: rgb(46, 1, 71);
 }
 
 main .video {
