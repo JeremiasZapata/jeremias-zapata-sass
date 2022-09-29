@@ -134,15 +134,3 @@ main .video iframe {
 main .sombreado {
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
 }/*# sourceMappingURL=estilo.css.map */
-
-
-/* borrar de aca para abajo */
-
-/* Delays de las cards creo */
-.delay{
-  animation-delay: 0.5s
-}
-
-.altura{
-  height: fit-content;
-}
