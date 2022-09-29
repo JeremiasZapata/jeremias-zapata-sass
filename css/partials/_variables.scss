@@ -4,18 +4,18 @@ $mainFont: 'Merriweather', serif;
 $hfcolor: rgb(46, 1, 71);
 $sombreado_rojo: 0 4px 16px rgb(199, 11, 11);
 $sombreado_negro:8px 8px 8px 1px rgba(0, 0, 0, 0.712);
-$color_boton:rgba(94, 10, 173, 0.747); ;
+$color_boton:rgba(94, 10, 173, 0.747);
 
 //aca declaramos los valores de los botones
 %botones {
     background-color: $color_boton;
     border-radius: 5px;
-    color: white;
+    color: rgb(254, 254, 255);
     border: transparent;
     padding: 5px;
     cursor: pointer;
     &:hover{
-        color: rgba(255, 255, 255, 1);
+        color: rgb(0, 0, 0);
         box-shadow: $sombreado_negro;
         transition: all 0.2s ease;
     }

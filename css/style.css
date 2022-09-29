@@ -219,9 +219,6 @@ button:hover{
 .delay{
     animation-delay: 0.5s
 }
-.delay1{
-    animation-delay: 1s;
-}
 .altura{
     height: fit-content;
 }

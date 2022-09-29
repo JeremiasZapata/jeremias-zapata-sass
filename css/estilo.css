@@ -1,35 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap");
-main .video a button {
+main .btn, main .video a button {
   background-color: rgba(94, 10, 173, 0.747);
   border-radius: 5px;
-  color: white;
+  color: rgb(254, 254, 255);
   border: transparent;
   padding: 5px;
   cursor: pointer;
 }
-main .video a button:hover {
-  color: rgb(255, 255, 255);
+main .btn:hover, main .video a button:hover {
+  color: rgb(0, 0, 0);
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
   transition: all 0.2s ease;
 }
-
-/* Aca le damos un poco de estilo a los botones y que cuando pase por encima cambie a manito*/
-button {
-  background-color: rgba(95, 10, 173, 0.349);
-  border-radius: 5px;
-  color: white;
-  border: transparent;
-  padding: 5px;
-  cursor: pointer;
-}
-
-/* Efecto somreado a los botones GENIAL!!! */
-button:hover {
-  color: rgb(255, 255, 255);
-  box-shadow: 0 4px 16px rgb(255, 255, 255);
-  transition: all 0.2s ease;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -133,4 +115,8 @@ main .video iframe {
 }
 main .sombreado {
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
+}
+main .delay {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }/*# sourceMappingURL=estilo.css.map */
