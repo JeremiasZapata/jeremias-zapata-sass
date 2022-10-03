@@ -3,6 +3,7 @@ main{
     h2{
         button{
             @include acordeon;
+            @include acordeon2(italic, bold)
         }
     }
 }

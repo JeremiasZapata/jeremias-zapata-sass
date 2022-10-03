@@ -7,7 +7,7 @@ $sombreado_negro: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
 $color_boton: rgba(94, 10, 173, 0.747);
 $color_bg_boton_acordeon: rgba(124, 48, 175, 0.466);
 
-//aca declaramos los valores de los botones
+//aca declaramos los valores de los botones y hover
 %botones {
     background-color: $color_boton;
     border-radius: 5px;
@@ -15,17 +15,21 @@ $color_bg_boton_acordeon: rgba(124, 48, 175, 0.466);
     border: transparent;
     padding: 5px;
     cursor: pointer;
-
-    &:hover {
-        color: rgb(0, 0, 0);
         box-shadow: $sombreado_negro;
         transition: all 0.2s ease;
     }
-}
+
 //mixin sin parametros
 @mixin acordeon {
     font-family:$mainFont ;
-    
+    color: rgb(0, 0, 0) !important;
+}
+
+//mixin con parametros
+@mixin acordeon2 ($fontstyle, $fontwidth){
+    font-style:$fontstyle ;
+    font-weight:$fontwidth;
+
     
 }
 

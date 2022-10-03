@@ -6,9 +6,6 @@ main form fieldset .boton_formulario input, main .btn, main .video a button {
   border: transparent;
   padding: 5px;
   cursor: pointer;
-}
-main form fieldset .boton_formulario input:hover, main .btn:hover, main .video a button:hover {
-  color: rgb(0, 0, 0);
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
   transition: all 0.2s ease;
 }
@@ -140,4 +137,7 @@ main .delay {
 }
 main h2 button {
   font-family: "Merriweather", serif;
+  color: rgb(0, 0, 0) !important;
+  font-style: italic;
+  font-weight: bold;
 }/*# sourceMappingURL=estilo.css.map */
