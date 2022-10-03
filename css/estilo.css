@@ -137,4 +137,7 @@ main .sombreado {
 main .delay {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
+}
+main h2 button {
+  font-family: "Merriweather", serif;
 }/*# sourceMappingURL=estilo.css.map */
