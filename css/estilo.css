@@ -6,6 +6,9 @@ main form fieldset .boton_formulario input, main .btn, main .video a button {
   border: transparent;
   padding: 5px;
   cursor: pointer;
+}
+main form fieldset .boton_formulario input:hover, main .btn:hover, main .video a button:hover {
+  color: rgb(0, 0, 0);
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
   transition: all 0.2s ease;
 }
@@ -83,9 +86,7 @@ footer {
 }
 footer nav a {
   font-family: "Merriweather", serif;
-}
-footer nav .text-color {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
 }
 
 main .container a section .img-guit {

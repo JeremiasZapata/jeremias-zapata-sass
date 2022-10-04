@@ -15,10 +15,13 @@ $color_bg_boton_acordeon: rgba(124, 48, 175, 0.466);
     border: transparent;
     padding: 5px;
     cursor: pointer;
+
+    &:hover {
+        color: rgb(0, 0, 0);
         box-shadow: $sombreado_negro;
         transition: all 0.2s ease;
     }
-
+}
 //mixin sin parametros
 @mixin acordeon {
     font-family:$mainFont ;
@@ -32,6 +35,18 @@ $color_bg_boton_acordeon: rgba(124, 48, 175, 0.466);
 
     
 }
+
+//maps paleta
+$colors:(
+    "facebook": rgb(3, 19, 243),
+    "instagram": rgb(206, 88, 9),
+    "youtube": rgb(170, 6, 6),
+    "paypal": rgb(59, 7, 48),
+    "generico": rgb(255, 255, 255),
+
+);
+    
+
 
 //creamos un text colapse gral
 

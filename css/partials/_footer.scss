@@ -1,14 +1,15 @@
+
 footer{
     margin-top: auto;
     nav{
         a{
             font-family:$mainFont;
+                color: map-get($colors, generico) !important;
             
         }
-        .text-color{
-            color: rgb(255, 255, 255) ;
-        }
+        
     }
     background-color: $hfcolor;
     animation-delay: 1.5s;
 }
+
