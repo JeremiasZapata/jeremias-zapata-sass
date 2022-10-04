@@ -56,11 +56,8 @@ body{
 
 }
 @media(max-width: 800px){
-    .body-img{
-        background-size: contain;
-        height: 100%;
-    }
-    iframe{
+    
+        iframe{
         width: 70%;
     }
 }
