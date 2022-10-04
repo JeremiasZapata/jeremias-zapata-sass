@@ -34,3 +34,33 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
+@media(max-width: 412px){
+
+    .imagenempresarial img{
+        max-width: 88%;
+}
+/* Cambio el tamaño de los videos para celular */
+    iframe{
+        width: 75%;
+        height: auto;
+
+    }
+    .body-img{
+        background-size: contain;
+        height: 100%;
+    }
+    .video1, .video2, .video3{
+        margin: 10px;
+    }
+
+}
+@media(max-width: 800px){
+    .body-img{
+        background-size: contain;
+        height: 100%;
+    }
+    iframe{
+        width: 70%;
+    }
+}
