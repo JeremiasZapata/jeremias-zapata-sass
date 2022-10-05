@@ -1,13 +1,17 @@
 main{
     form{
         fieldset{
+            .formulario-centrado{
+                text-align: center;
+                color: rgb(0, 0, 0);
+                font-family: $mainFont;
+            }
             .boton_formulario{
                 input{
-                    @extend %botones;
+                    @extend %botones; // el %botones esta en variables
                 } 
 
                 }
             }
         }
     }
-// el %botones esta en variables

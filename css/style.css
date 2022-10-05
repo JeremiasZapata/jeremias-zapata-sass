@@ -95,7 +95,7 @@ footer nav a{
     color: white;
 }
 
-/* Botones formulario */
+/* Pasado Botones formulario */
 
 form fieldset .boton_formulario input:hover{
     color: rgba(255, 255, 255, 1);
@@ -111,7 +111,7 @@ form fieldset .boton_formulario input{
     padding: 5px;
     cursor: pointer;
 }
-/* Aca al contenido del formulario lo centramos y le damos color al texto */
+/* Pasado Aca al contenido del formulario lo centramos y le damos color al texto */
 .formulario-centrado{
     text-align: center;
     color: aliceblue;
@@ -146,7 +146,7 @@ button:hover{
     transition: all 0.2s ease;
 }
 
-/* Botones de cards */
+/*Pasado Botones de cards */
 
 .btncards:hover{
     color:rgba(255, 255, 255, 1);
@@ -200,6 +200,7 @@ button:hover{
         width: 70%;
     }
 }
+/* Pasado */
 .img-nosotros{
     text-align: center;
 }
@@ -220,6 +221,7 @@ button:hover{
 .delay{
     animation-delay: 0.5s
 }
+/* no lo pasamos */
 .altura{
     height: fit-content;
 }

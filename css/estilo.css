@@ -139,6 +139,20 @@ a[name=more]:target ~ .desplegable {
   height: auto;
 }
 
+main p {
+  color: black;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgba(178, 131, 226, 0.534);
+}
+main h1 {
+  color: black;
+  font-weight: 600;
+  font-style: italic;
+}
+main .img-nosotros {
+  text-align: center;
+}
 main details summary {
   color: rgb(46, 1, 71);
 }
@@ -158,6 +172,11 @@ main .sombreado {
 main .delay {
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
+}
+main form fieldset .formulario-centrado {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Merriweather", serif;
 }
 main h2 button {
   font-family: "Merriweather", serif;
