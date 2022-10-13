@@ -45,23 +45,15 @@ a[name=more]:target ~ .desplegable {
   overflow-x: hidden;
 }
 
-html {
-  height: 100%;
-  overflow-x: hidden;
-}
-
 body {
-  background-image: url("../../imagenes/background_inicio.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 #contacto {
   background-color: black;
-  background-image: url("../../imagenes/Soft_Wave_Background.jpg");
   background-position-x: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -90,7 +82,8 @@ body {
   }
 }
 header nav {
-  background-color: rgb(46, 1, 71);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(12deg, rgb(0, 0, 0) 0%, rgb(43, 41, 41) 44%, rgb(132, 109, 134) 57%, rgb(203, 203, 203) 100%);
 }
 header nav ul li a {
   font-family: "Merriweather", serif;
@@ -103,16 +96,31 @@ header nav ul li a:hover {
 
 footer {
   margin-top: auto;
-  background-color: rgb(46, 1, 71);
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
+}
+footer nav {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(12deg, rgb(0, 0, 0) 0%, rgb(43, 41, 41) 44%, rgb(132, 109, 134) 57%, rgb(203, 203, 203) 100%);
 }
 footer nav a {
   font-family: "Merriweather", serif;
   color: rgb(255, 255, 255) !important;
 }
+footer nav #youtube:hover {
+  color: rgb(170, 6, 6) !important;
+}
+footer nav #instagram:hover {
+  color: rgb(138, 58, 185) !important;
+}
+footer nav #facebook:hover {
+  color: rgb(3, 19, 243) !important;
+}
+footer nav #paypal:hover {
+  color: rgb(59, 123, 191) !important;
+}
 
-main .container a section .logo-index {
+main .container .logo-index {
   text-align: center;
   background-color: black;
 }
@@ -176,3 +184,4 @@ main h2 button {
   font-style: italic;
   font-weight: bold;
 }/*# sourceMappingURL=estilo.css.map */
+

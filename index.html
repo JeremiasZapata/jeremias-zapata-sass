@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pedales de efectos y equipamiento boutique para músicos">
-    <meta name="keywords" content="pedales, stompboxes, stompbox guitar pedal, audio, música, amplificadores, clásicos, vintage, boutique, personalización">
+    <meta name="keywords"
+        content="pedales, stompboxes, stompbox guitar pedal, audio, música, amplificadores, clásicos, vintage, boutique, personalización">
+    <link rel="icon" type="image/jpg" href="../imagenes/favicon.jpg" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -33,7 +35,8 @@
                             <a class="nav-link" href="./pages/test.html">Test</a>
                         </li>
                         <li class="container row">
-                            <a class="  navbar-brand" href="./index.html"><img class="me-0 ms-4" src="./imagenes/logo invertido.png" width="120vh" alt="Logo"></a>
+                            <a class="  navbar-brand" href="./index.html"><img class="me-0 ms-4"
+                                    src="./imagenes/logo invertido.png" width="120vh" alt="Logo"></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/sobre_nosotros.html">Nosotros</a>
@@ -44,7 +47,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/preguntas_frecuentes.html">FAQ</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -54,23 +57,76 @@
 
         <div class="container">
             <a href="./pages/productos.html">
-                <section class="imagen-index row">
-                        <div class="logo-index">
-                            <img id="logo-inicio" src="./imagenes/logo invertido.png" width="40%" alt="logo">
-                        </div>
-                        
+                <section class="row">
+                    <img class="animate__animated animate__flash animate__faster"
+                        src="./imagenes/do something great.jpg" alt="Imagen index">
                 </section>
             </a>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-touch="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./imagenes/carrousel1.jpg" class="d-block w-100" alt="carrousel1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imagenes/carrousel2.jpg" class="d-block w-100" alt="carrousel2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/carrousel3.jpg" class="d-block w-100" alt="carrousel3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="logo-index">
+                <img id="logo-inicio" src="./imagenes/logo invertido.png" width="80%" alt="logo">
+            </div>
         </div>
+
+
 
 
     </main>
     <footer class="animate__animated animate__fadeIn footer-delay">
         <nav class="nav flex-column flex-sm-row nav-justified">
-            <a class="flex-sm-fill text-sm-center nav-link" href="https://www.facebook.com/" target="_blank">Facebook   <i class="fab fa-facebook"></i></a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="https://www.instagram.com/" target="_blank">Instagram <i class="fab fa-instagram"></i></a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="https://www.youtube.com/" target="_blank">Youtube <i class="fab fa-youtube"></i></a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="https://www.paypal.com/"target="_blank">PayPal <i class="fab fa-paypal"></i></a>
+            <a id="facebook" class="flex-sm-fill text-sm-center nav-link" href="https://www.facebook.com/"
+                target="_blank">Facebook <i class="fab fa-facebook"></i></a>
+            <a id="instagram" class="flex-sm-fill text-sm-center nav-link" href="https://www.instagram.com/"
+                target="_blank">Instagram
+                <i class="fab fa-instagram"></i></a>
+            <a id="youtube" class="flex-sm-fill text-sm-center nav-link" href="https://www.youtube.com/"
+                target="_blank">Youtube <i class="fab fa-youtube"></i></a>
+            <a id="paypal" class="flex-sm-fill text-sm-center nav-link" href="https://www.paypal.com/"
+                target="_blank">PayPal <i class="fab fa-paypal"></i></a>
         </nav>
     </footer>
 
@@ -78,7 +134,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://kit.fontawesome.com/9800f621b3.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
