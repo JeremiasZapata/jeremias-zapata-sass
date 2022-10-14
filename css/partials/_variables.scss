@@ -4,6 +4,7 @@ $mainFont: "Merriweather", serif;
 $hfcolor: rgb(46, 1, 71);
 $sombreado_rojo: 0 4px 16px rgb(199, 11, 11);
 $sombreado_negro: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
+$sombreado_blanco: 8px 8px 8px 1px rgba(255, 255, 255, 0.712);
 $color_boton: rgba(94, 10, 173, 0.747);
 $color_bg_boton_acordeon: rgba(124, 48, 175, 0.466);
 
@@ -17,11 +18,27 @@ $color_bg_boton_acordeon: rgba(124, 48, 175, 0.466);
     cursor: pointer;
 
     &:hover {
-        color: rgb(0, 0, 0);
-        box-shadow: $sombreado_negro;
-        transition: all 0.2s ease;
+        box-shadow: $sombreado_blanco;
+        transition: all 0.2s ease-in-out;
+        background-color: rgba(45, 67, 192, 0.788);
     }
 }
+
+%botones_cards {
+    background-color: $color_boton;
+    border-radius: 5px;
+    color: rgb(254, 254, 255);
+    border: transparent;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: $sombreado_negro;
+        transition: all 0.2s ease-in-out;
+        background-color: rgba(45, 67, 192, 0.788);
+    }
+}
+
 //mixin sin parametros
 @mixin acordeon {
     font-family:$mainFont ;
@@ -60,3 +77,4 @@ a[name="more"]:target~.desplegable {
     width: auto;
     height: auto;
 }
+

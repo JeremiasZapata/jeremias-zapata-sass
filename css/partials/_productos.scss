@@ -6,7 +6,7 @@ main{
         animation-delay: 0.5s
     }
     .btn{
-        @extend %botones;
+        @extend %botones_cards;
     }
 }
 // el %botones esta en variables

@@ -1,8 +1,10 @@
 header{
-
+    // height: 55px;            
     nav{
+        // z-index: -1;
         background: rgb(0,0,0);
         background: linear-gradient(12deg, rgba(0,0,0,1) 0%, rgba(43,41,41,1) 44%, rgba(132,109,134,1) 57%, rgba(203,203,203,1) 100%);
+        }
         
         ul{
             li{
@@ -17,5 +19,5 @@ header{
             }
         }
     }
-}
+
 

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap");
-main form fieldset .boton_formulario input, main .btn, main .video a button {
+main form fieldset .boton_formulario input, main .video a button {
   background-color: rgba(94, 10, 173, 0.747);
   border-radius: 5px;
   color: rgb(254, 254, 255);
@@ -8,10 +8,24 @@ main form fieldset .boton_formulario input, main .btn, main .video a button {
   padding: 5px;
   cursor: pointer;
 }
-main form fieldset .boton_formulario input:hover, main .btn:hover, main .video a button:hover {
-  color: rgb(0, 0, 0);
+main form fieldset .boton_formulario input:hover, main .video a button:hover {
+  box-shadow: 8px 8px 8px 1px rgba(255, 255, 255, 0.712);
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(45, 67, 192, 0.788);
+}
+
+main .btn {
+  background-color: rgba(94, 10, 173, 0.747);
+  border-radius: 5px;
+  color: rgb(254, 254, 255);
+  border: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+main .btn:hover {
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(45, 67, 192, 0.788);
 }
 
 .desplegable,
@@ -57,6 +71,8 @@ body {
   background-position-x: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-image: url(../../imagenes/background.jpg);
+  size: 100vh;
 }
 
 @media (max-width: 412px) {
@@ -85,11 +101,11 @@ header nav {
   background: rgb(0, 0, 0);
   background: linear-gradient(12deg, rgb(0, 0, 0) 0%, rgb(43, 41, 41) 44%, rgb(132, 109, 134) 57%, rgb(203, 203, 203) 100%);
 }
-header nav ul li a {
+header ul li a {
   font-family: "Merriweather", serif;
   color: rgb(255, 255, 255);
 }
-header nav ul li a:hover {
+header ul li a:hover {
   transform: scale(1.05);
   transition: all ease 1s;
 }
@@ -120,6 +136,9 @@ footer nav #paypal:hover {
   color: rgb(59, 123, 191) !important;
 }
 
+main .container img {
+  margin: 30px 0 60px 0;
+}
 main .container .logo-index {
   text-align: center;
   background-color: black;
@@ -150,10 +169,12 @@ main h1 {
   font-weight: 600;
   font-style: italic;
 }
-main .img-nosotros {
+
+.img-nosotros {
   text-align: center;
 }
-main details summary {
+
+details summary {
   color: rgb(46, 1, 71);
 }
 
@@ -184,4 +205,3 @@ main h2 button {
   font-style: italic;
   font-weight: bold;
 }/*# sourceMappingURL=estilo.css.map */
-
