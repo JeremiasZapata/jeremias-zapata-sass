@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,900&display=swap");
 main form fieldset .boton_formulario input, main .video a button {
-  background-color: rgba(94, 10, 173, 0.747);
+  background-color: rgba(49, 49, 49, 0.801);
   border-radius: 5px;
   color: rgb(254, 254, 255);
   border: transparent;
@@ -9,13 +9,13 @@ main form fieldset .boton_formulario input, main .video a button {
   cursor: pointer;
 }
 main form fieldset .boton_formulario input:hover, main .video a button:hover {
-  box-shadow: 8px 8px 8px 1px rgba(255, 255, 255, 0.712);
+  box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
   transition: all 0.2s ease-in-out;
   background-color: rgba(45, 67, 192, 0.788);
 }
 
 main .btn {
-  background-color: rgba(94, 10, 173, 0.747);
+  background-color: rgba(49, 49, 49, 0.801);
   border-radius: 5px;
   color: rgb(254, 254, 255);
   border: transparent;
@@ -69,9 +69,8 @@ body {
 #contacto {
   background-color: black;
   background-position-x: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-image: url(../../imagenes/background.jpg);
+  background-image: url(../../imagenes/background5.jpg);
   size: 100vh;
 }
 
@@ -97,9 +96,12 @@ body {
     width: 70%;
   }
 }
+header {
+  height: 55px;
+}
 header nav {
   background: rgb(0, 0, 0);
-  background: linear-gradient(12deg, rgb(0, 0, 0) 0%, rgb(43, 41, 41) 44%, rgb(132, 109, 134) 57%, rgb(203, 203, 203) 100%);
+  background: linear-gradient(12deg, rgb(0, 0, 0) 0%, rgb(43, 41, 41) 44%, rgb(76, 74, 77) 57%, rgb(203, 203, 203) 100%);
 }
 header ul li a {
   font-family: "Merriweather", serif;
@@ -117,7 +119,7 @@ footer {
 }
 footer nav {
   background: rgb(0, 0, 0);
-  background: linear-gradient(12deg, rgb(0, 0, 0) 0%, rgb(43, 41, 41) 44%, rgb(132, 109, 134) 57%, rgb(203, 203, 203) 100%);
+  background: linear-gradient(12deg, rgb(0, 0, 0) 0%, rgb(43, 41, 41) 44%, rgb(76, 74, 77) 57%, rgb(203, 203, 203) 100%);
 }
 footer nav a {
   font-family: "Merriweather", serif;
