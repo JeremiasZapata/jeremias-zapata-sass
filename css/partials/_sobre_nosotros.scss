@@ -13,25 +13,22 @@ width: auto;
 height: auto;
 }
 main{
-    p{
-        color: black;
+    p, h1{
+        color: $texto_blanco;
         font-weight:600;
         font-style: italic;
-        background-color: rgba(178, 131, 226, 0.534);
-    }
-    h1{
-        color: black;
-        font-weight:600;
-        font-style: italic;
-        
-    }
+        }
     }
     .img-nosotros{
             text-align: center;
+            img{
+                box-shadow: $sombreado_negro;
+                border-radius: 5px;
+            }
             
     }
     details{
         summary{
-            color: $hfcolor; 
+            color: $texto_rojo; 
         }
     }

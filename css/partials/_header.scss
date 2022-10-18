@@ -1,7 +1,8 @@
 header{
-    height: 55px;            
+    height: 55px;
+    z-index: 1;            
     nav{
-        // z-index: -1;
+        
         background: rgb(0,0,0);
         background: linear-gradient(12deg, rgba(0,0,0,1) 0%, rgba(43,41,41,1) 44%, rgb(76, 74, 77) 57%, rgba(203,203,203,1) 100%);
         }

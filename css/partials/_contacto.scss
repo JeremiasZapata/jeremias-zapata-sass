@@ -4,7 +4,7 @@ main{
         fieldset{
             .formulario-centrado{
                 text-align: center;
-                color: rgb(0, 0, 0);
+                color: $texto_blanco;
                 font-family: $mainFont;
             }
             .boton_formulario{
