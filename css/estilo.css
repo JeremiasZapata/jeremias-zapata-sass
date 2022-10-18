@@ -44,6 +44,9 @@ a[name=more]:target ~ .desplegable {
   height: 100%;
   overflow-x: hidden;
 }
+* main nav {
+  text-decoration: none !important;
+}
 
 body {
   background-color: black;
@@ -66,8 +69,8 @@ body {
   }
   /* Cambio el tamaño de los videos para celular */
   iframe {
-    width: 75%;
-    height: auto;
+    width: 85% !important;
+    height: 100% !important;
   }
   .body-img {
     background-size: contain;
@@ -190,6 +193,7 @@ main .accordion .bg-acordeon {
   box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
 }
 main h2 button {
+  box-shadow: none !important;
   background: rgb(0, 0, 0);
   background: linear-gradient(192deg, rgb(0, 0, 0) 0%, rgb(5, 4, 41) 18%, rgb(203, 203, 203) 100%);
   font-family: "Merriweather", serif;

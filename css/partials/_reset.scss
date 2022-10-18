@@ -12,6 +12,13 @@
     height: 100%;
     overflow-x: hidden;  
 }
+main{
+    nav{
+        text-decoration: none !important;
+    }
+
+}
+
 
 }
 
@@ -39,8 +46,8 @@ body{
 }
 /* Cambio el tamaño de los videos para celular */
     iframe{
-        width: 75%;
-        height: auto;
+        width: 85% !important;
+        height: 100% !important;
 
     }
     .body-img{
@@ -58,3 +65,5 @@ body{
         width: 70%;
     }
 }
+
+
