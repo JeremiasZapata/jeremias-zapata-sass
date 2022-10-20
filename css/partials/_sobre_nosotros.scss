@@ -33,3 +33,7 @@ main{
             margin-bottom: 10px;
             }
     }
+
+.btn-seguir-leyendo{
+    @extend %botones_seguir_leyendo;
+}

@@ -5,7 +5,9 @@ $hfcolor: rgb(46, 1, 71);
 $sombreado_rojo: 0 4px 16px rgb(199, 11, 11);
 $sombreado_negro: 8px 8px 8px 1px rgba(0, 0, 0, 0.712);
 $sombreado_blanco: 8px 8px 8px 1px rgba(255, 255, 255, 0.712);
+$sombreado_seguir_leyendo: 8px 0px 8px 1px rgba(255, 255, 255, 0.712);
 $color_boton: rgba(49, 49, 49, 0.801);
+$color_boton_seguir_leyendo: rgba(0, 0, 0, 0.801);
 $color_bg_boton_acordeon: rgba(0, 0, 0, 0.671);
 $texto_rojo:rgb(153, 9, 9);
 $texto_blanco: rgb(255, 255, 255);
@@ -27,6 +29,23 @@ $texto_blanco: rgb(255, 255, 255);
     }
 }
 
+//aca declaramos los valores de los botones y hover de seguir leyendo
+%botones_seguir_leyendo {
+    background-color: $color_boton_seguir_leyendo;
+    box-shadow: none !important;
+    border-radius: 5px;
+    color: rgb(254, 254, 255);
+    border: transparent;
+    cursor: pointer;
+    padding: 0px;
+
+    &:hover {
+        box-shadow: $sombreado_seguir_leyendo !important;
+        color: rgb(254, 254, 255);
+        transition: all 0.2s ease-in-out;
+        background-color: rgba(45, 67, 192, 0.788);
+    }
+}
 
 
 //mixin sin parametros

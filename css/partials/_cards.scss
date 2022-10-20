@@ -282,7 +282,7 @@ body {
 }
 .componente:nth-child(1) .componente-fundo-imagem:before {
   transition-delay: 0s;
-  background-image: url("../../imagenes/Over.jpg");
+  background-image: url("../../imagenes/Over.webp");
 }
 .componente:nth-child(2) {
   transform: translate3d(105.2083333333%, 0, 0);
@@ -299,7 +299,7 @@ body {
 }
 .componente:nth-child(2) .componente-fundo-imagem:before {
   transition-delay: 0.1s;
-  background-image: url("../../imagenes/Booster.jpg");
+  background-image: url("../../imagenes/Booster.webp");
 }
 .componente:nth-child(3) {
   transform: translate3d(210.4166666667%, 0, 0);
@@ -316,7 +316,7 @@ body {
 }
 .componente:nth-child(3) .componente-fundo-imagem:before {
   transition-delay: 0.2s;
-  background-image: url("../../imagenes/Fuzz.jpg");
+  background-image: url("../../imagenes/Fuzz.webp");
 }
 .componente:nth-child(4) {
   transform: translate3d(315.625%, 0, 0);
@@ -333,7 +333,7 @@ body {
 }
 .componente:nth-child(4) .componente-fundo-imagem:before {
   transition-delay: 0.3s;
-  background-image: url("../../imagenes/Delay.jpg");
+  background-image: url("../../imagenes/Delay.webp");
 }
 .componente:nth-child(5) {
   transform: translate3d(420.8333333333%, 0, 0);
@@ -350,7 +350,7 @@ body {
 }
 .componente:nth-child(5) .componente-fundo-imagem:before {
   transition-delay: 0.4s;
-  background-image: url("../../imagenes/Chorus.jpg");
+  background-image: url("../../imagenes/Chorus.webp");
 }
 .componente:hover .componente-fundo-imagem:after {
   opacity: 0;
