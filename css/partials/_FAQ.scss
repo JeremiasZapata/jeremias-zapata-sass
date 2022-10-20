@@ -18,7 +18,7 @@ main{
         button{
             box-shadow: none !important;
             background: rgb(0,0,0);
-            background: linear-gradient(192deg, rgba(0,0,0,1) 0%, rgba(5,4,41,1) 18%, rgba(203,203,203,1) 100%);
+            background: linear-gradient(192deg, rgba(0,0,0,1) 0%, rgb(0, 0, 0) 18%, rgba(203,203,203,1) 100%);
             @include acordeon;
             @include acordeon2(italic, bold);
         }
